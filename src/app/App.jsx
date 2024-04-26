@@ -1,14 +1,15 @@
+import { RouterProvider } from "react-router-dom"
+import routes from "./providers/router/routes"
 
-import { Card } from '../shared/components/ui/card'
 import './globals.css'
 
 function App() {
-
+  
   return (
-    <>
-      <Card>123</Card>
-    </>
+    <div>
+      <RouterProvider router={routes} />
+    </div>
   )
 }
 
-export default App
+export default App;
