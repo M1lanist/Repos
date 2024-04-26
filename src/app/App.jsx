@@ -1,10 +1,12 @@
 
+import { Card } from '../shared/components/ui/card'
+import './globals.css'
 
 function App() {
 
   return (
     <>
-      a
+      <Card>123</Card>
     </>
   )
 }
