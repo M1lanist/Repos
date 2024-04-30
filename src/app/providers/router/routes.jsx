@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import MainPage from "../../../pages/MainPage";
 import Autorization from "../../../pages/Autorization";
 
-const routes = () => {
+const Routes = () => {
   return (
     <Routes>
       <Route path="/" element={MainPage} />
@@ -10,4 +10,4 @@ const routes = () => {
     </Routes>
   )
 }
-export default routes;
+export default Routes;
