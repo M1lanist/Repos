@@ -1,6 +1,6 @@
 const Autorization = () => {
   return (
-    <div>index</div>
+    <div>autorization</div>
   )
 }
 export default Autorization
