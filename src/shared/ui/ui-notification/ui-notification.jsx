@@ -9,7 +9,7 @@
 
 
 
-// export default function BasicAlerts() {
+// export default function UiNotification() {
 //   const [isVisible, setIsVisible] = useState({
 //     info:true,
 //     success:true,

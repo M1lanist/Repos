@@ -1,21 +1,28 @@
 import { RouterProvider } from "react-router-dom";
 import routes from "./providers/router/routes"; 
-// import UiNotification from "../../shared/ui/ui-notification/ui-notification";
 import './globals.css'; 
 // import Headline1 from "../../shared/ui/ui-header/ui-typography/ui-typography";
 import Sidebar from '../widgets/Sidebar'; 
 import UiSidebar from '../shared/ui/ui-sidebar/ui-sidebar'; 
+import UiButton from "@/shared/ui/ui-button/ui-button";
+// import UiNotification from "@/shared/ui/ui-notification/ui-notification";
+
 
 function App() {
   return (
-    <div>
-      <RouterProvider router={routes} />
-      <Sidebar />
+   
+  <div className="flex">
+
+   <div className="flex w-screen">
+      <Sidebar>
       <UiSidebar/>
-       
-      
-      
-      {/* <UiNotification/> */}
+      </Sidebar>
+      <RouterProvider router={routes} />
+   </div>
+     
+     
+
+    
     </div>
   );
 }
